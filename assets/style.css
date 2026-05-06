@@ -1,12 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 html {
     background-color: rgb(32, 32, 32);
+    font-family: "Courier Prime", monospace;
 }
 h1 {
-    color: rgb(155, 155, 155); 
+    color: rgb(226, 226, 226); 
 }
 h2 {
-    color: rgb(155, 155, 155);
+    color: rgb(226, 226, 226);
 }
 p {
-    color: rgb(155, 155, 155);
+    color: rgb(226, 226, 226);
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
 }
