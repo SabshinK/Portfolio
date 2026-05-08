@@ -75,9 +75,10 @@ div.flex-panel {
 div.card {
     float: left;
     width: 450px;
-    height: 400px;
+    height: 420px;
     margin-right: 100px;
     margin-bottom: 100px;
+    padding: 20px;
     border: 2px solid rgb(105, 105, 105);
 }
 
