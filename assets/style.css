@@ -29,6 +29,15 @@ p {
 ul {
     color: rgb(226, 226, 226);
 }
+a.icon:link {
+    color: white;
+}
+a.icon:visited {
+    color: white;
+}
+a.icon:hover {
+    color: cyan;
+}
 
 div.top-bar {
     width: 100%;
@@ -85,6 +94,9 @@ div.card {
     margin-bottom: 50px;
     padding: 20px;
     border: 2px solid rgb(105, 105, 105);
+}
+div.card:hover {
+    border: 2px solid white;
 }
 
 span.blue-tag {
